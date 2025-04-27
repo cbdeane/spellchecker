@@ -8,6 +8,7 @@ class Dictionary {
 	// Could put this in the function, but with how many times it will be iterated it makes more sense to cache
 	private HashMap<String, char[]> correctionsLookup;
 
+	// Constructor that initializes the dictionary object
 	public Dictionary() {
 		this.dictionarySet = getDictionaryFile();
 		this.dictionaryArray = dictionarySet.toArray(new String[0]);
