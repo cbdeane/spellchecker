@@ -180,7 +180,7 @@ public class Main {
 					System.out.println("Did you mean: " + String.join(", ", corrections) + "?");
 				}
 			}
-			System.out.println("\n");
+			System.out.println('\n');
 		}
 	}
 }
