@@ -1,6 +1,7 @@
 import java.util.*;
 import java.io.*;
 
+
 // class for all the spell checking and dictionary activities
 class Dictionary {
 	private HashSet<String> dictionarySet;
